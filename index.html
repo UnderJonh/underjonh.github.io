@@ -1,0 +1,77 @@
+<DOCTYPE html>
+<html>
+
+	<head>
+		<title> Under John's Markup </title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+
+	<body id="main" background="art/fundo.jpg">
+  <script src="main.js"></script>
+		<header class="flex-container horizontal space">
+			<img src="art/dia.png" width=10% height=20% />
+			<div class="titulo">
+			  <h1> Under John's Markup</h1>
+			</div>
+
+			<nav id="Black" class="flex-container horizontal center" style="text-align:right">
+				
+        <ul>
+          <li><a href="Qs.html" target="_self">Quem Somos</a></li>
+        </ul>
+				
+			</nav>
+		</header>
+
+    <div class="flex-container grid center horizontal">
+      <div class="flex-container vertical center box" onclick="goToJogo('velha/velha')">
+        <h3>Jogo Da Velha</h3>
+        <img src="art/jogoV.png" />
+      </div>
+      <div class="flex-container vertical center box" onclick="goToJogo('spaceship-master/dist/nave')">
+        <h3>Jogo Da Nave</h3>
+        <img src="art/jogoN.jfif" />
+      </div>
+      <div class="flex-container vertical center box" onclick="window.open('http://js13kgames.com/games/radius-raid/index.html','_blank');">
+        <h3>Jogo de tiro</h3>
+        <img src="art/P.png" />
+      </div>
+      <div class="flex-container vertical center box" onclick="goToJogo('stick/stick')">
+        <h3>Stick Animation CSS</h3>
+        <img src="art/S.png" />
+      </div>
+      <div class="flex-container vertical center box" onclick="goToJogo('pac-man/index')">
+        <h3>Pac Man</h3>
+        <img src="art/pac.png" />
+      </div>
+      <div class="flex-container vertical center box" onclick="goToJogo('Tetris/tetris')">
+        <h3>Tetris</h3>
+        <img src="art/T.png" />
+      </div>
+      <div class="flex-container vertical center box" onclick="goToJogo('2048-master/index')">
+        <h3>2048</h3>
+        <img src="art/2.png" />
+      </div>
+      <div class="flex-container vertical center box" onclick="goToJogo('SpaceInvaders-master/index')">
+        <h3>Space Invaders</h3>
+        <img src="art/2.png" />
+      </div>
+    </div>
+    
+
+    <div class="flex-container vertical center mid">
+      <iframe id="frame" src="" style="border:none;" scrolling="no"></iframe>
+    </div>
+
+
+		
+		<footer class="flex-container horizontal center space">
+      <span> Redes       ?????</span>
+      <font color="green">
+        <a href="http://dontpad.com/comunica%C3%A7%C3%A3o/jo%C3%A3o/site/markup" target="_blank">Email De contato </font>
+      <img href="" src="art/gmail.png" />
+		</footer>
+		
+	</body>
+</html>
